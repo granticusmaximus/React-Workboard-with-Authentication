@@ -34,7 +34,7 @@ const NavigationAuth = (props) => {
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">React & Firebase</NavbarBrand>
+        <NavbarBrand href="/">React Workboard</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
