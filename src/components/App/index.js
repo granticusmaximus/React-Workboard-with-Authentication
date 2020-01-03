@@ -13,10 +13,11 @@ import * as ROUTES from '../../constants/routes';
 import { withAuthentication } from '../Session';
 
 const App = () => (
-  <div className="container">
+  <div>
     <Router>
-      <div>
-        <Navigation />
+      <Navigation />
+      <div className="container">
+        
 
         <hr />
 

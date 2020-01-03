@@ -13,10 +13,19 @@
   }
 }
 
+.navbar-light .navbar-brand {
+  color: white;
+}
+
 .container {
   width: 100%;
   min-height: 650px;
   padding: 50px;
+}
+
+.cont-box {
+  width: 500px;
+  height: auto;
 }
 
 .App-box {
